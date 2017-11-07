@@ -1,0 +1,24 @@
+{
+  "name": "nodedownPDF",
+  "version": "1.0.0",
+  "description": "书问爬虫免费下载pdf",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "爬虫"
+  ],
+  "author": "superqjq",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.11.0",
+    "mkdirp": "^0.5.1",
+    "pdfkit": "^0.8.3",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "rimraf": "^2.6.2"
+  }
+}
